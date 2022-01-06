@@ -1,0 +1,42 @@
+body {
+  font-family: "El Messiri", sans-serif;
+  margin: 0px;
+}
+
+h1 {
+  font-size: 50px;
+  margin-left: 5px;
+  padding: 4px;
+}
+
+.headline-on {
+  border-left-style: solid;
+  border-left-color: rgb(255, 115, 80);
+  border-width: 5px;
+  line-height: 85%;
+}
+
+.sec-headline {
+  color: #46c3db;
+}
+
+.first-portion {
+  display: flex;
+  margin-left: 5%;
+}
+
+.design-button {
+  text-decoration: none;
+  padding: 5px 15px;
+  background-color: rgb(221, 68, 68);
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  border-radius: 4px;
+}
+
+#first-image {
+  width: 50%;
+  padding: 40px;
+  position: relative;
+  margin-left: 150px;
+}
