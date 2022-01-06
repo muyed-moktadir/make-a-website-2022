@@ -5,8 +5,10 @@ body {
 
 h1 {
   font-size: 50px;
-  margin-left: 5px;
-  padding: 4px;
+}
+
+h2 {
+  font-size: 22px;
 }
 
 .headline-on {
@@ -25,6 +27,21 @@ h1 {
   margin-left: 6%;
 }
 
+.half-width {
+  width: 50%;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.half-width img {
+  width: 60%;
+}
+
+.mission-section {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
 .design-button {
   text-decoration: none;
   padding: 5px 15px;
@@ -35,8 +52,61 @@ h1 {
 }
 
 #first-image {
-  width: 50%;
-  padding: 40px;
-  position: relative;
-  margin-left: 150px;
+  width: 60%;
+  margin-left: 20%;
+}
+/*mission */
+.textmission {
+  text-align: center;
+}
+
+.flex-conteiner {
+  display: flex;
+  margin-bottom: 100px;
+  padding: 10px;
+}
+
+.mission-part {
+  padding-left: 10%;
+}
+
+.images-size img {
+  position: corner;
+  width: 100px;
+}
+
+#section-one {
+  width: 35%;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: #f090d9;
+  padding: 10px;
+}
+
+#section-two {
+  width: 35%;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #f3cf7a;
+}
+#section-three {
+  width: 35%;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #e7b3b3;
+}
+
+#name-two img {
+  margin-left: 35%;
+}
+
+/*foeter work*/
+footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+  height: 100px;
+  padding-top: 25px;
 }
